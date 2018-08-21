@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<title>Set your Swappiness - </title>
+	<script src="/cdn-cgi/apps/head/peLKwOzvyiOCkDu-YDqpSrNzwYo.js"></script>
+	
+	
+
+	<!-- style START -->
+	<style type="text/css" media="screen">@import url( /contents/ui/theme/style.css );</style>
+		<!--[if IE]>
+		<link rel="stylesheet" href="/contents/ui/theme/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	<!-- style END -->
+
+	<!-- script START -->
+	<script type="34fccd061b9db4dff897f270-text/javascript" src="/contents/ui/theme/js/base.js"></script>
+	<script type="34fccd061b9db4dff897f270-text/javascript" src="/contents/ui/theme/js/menu.js"></script>
+	<!-- script END -->
+
+		
+<!-- This site is optimized with the Yoast SEO plugin v8.0 - https://yoast.com/wordpress/plugins/seo/ -->
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Set your Swappiness - " />
+<meta property="og:description" content="Normally you would not need to set your swappiness on your desktop running linux because you have exclusive access to your hard drives.  In fact there are a few people who set the tendancy higher for performance.  However on your vps where disk access is shared with other customers&#8230; you should notice a performance improvement &hellip;" />
+<meta property="og:url" content="2011/03/04/set-your-swappiness/" />
+<meta property="og:site_name" content="" />
+<meta property="article:tag" content="kvm" />
+<meta property="article:tag" content="minecraft" />
+<meta property="article:tag" content="swap" />
+<meta property="article:tag" content="xen" />
+<meta property="article:section" content="troubleshoot" />
+<meta property="article:published_time" content="2011-03-04T20:33:40-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Normally you would not need to set your swappiness on your desktop running linux because you have exclusive access to your hard drives.  In fact there are a few people who set the tendancy higher for performance.  However on your vps where disk access is shared with other customers&#8230; you should notice a performance improvement [&hellip;]" />
+<meta name="twitter:title" content="Set your Swappiness - " />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='' />
+
+
+<link rel='stylesheet' id='cookielawinfo-style-css'  href='contents/lib/cookie-law-info/css/cli-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widget-social-icons-styles-css'  href='contents/lib/jetpack/modules/widgets/social-icons/social-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='contents/lib/tablepress/css/default.min.css' type='text/css' media='all' />
+<script type="34fccd061b9db4dff897f270-text/javascript" src='inc/js/jquery/jquery.js'></script>
+<script type="34fccd061b9db4dff897f270-text/javascript" src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type="34fccd061b9db4dff897f270-text/javascript">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":null};
+/* ]]> */
+</script>
+<script type="34fccd061b9db4dff897f270-text/javascript" src='contents/lib/cookie-law-info/js/cookielawinfo.js'></script>
+
+
+
+
+
+
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- All in one Favicon 4.7 --></head>
+
+
+<body>
+	<div id="wrap">
+		<div id="container">
+
+<!-- header START -->
+<div id="header">
+	<div id="title">
+		<h1><a href=""></a></h1>
+		<div id="tagline">Advocacy and Learning Center for Virtual Private Servers</div>
+	</div>
+
+	<!-- WordPress searchbox -->
+	<div class="searchbox">
+		<form action="" method="get">
+			<div class="content">
+				<input type="text" class="textfield" name="s" size="24" value="" />
+				<input type="submit" class="button" value="Search" />
+			</div>
+		</form>
+	</div>
+
+	<div class="fixed"></div>
+</div>
+<!-- header END -->
+
+<!-- content START -->
+<div id="content">
+
+	<!-- menubar START -->
+	<div id="navigation">
+		<ul id="menubar">
+			<li class="page_item"><a title="Home" href="">Home</a></li>
+			<li class="page_item page-item-5"><a href="about/">About</a></li>
+<li class="page_item page-item-8"><a href="contact-us/">Contact Us</a></li>
+<li class="page_item page-item-589"><a href="privacy-policy/">Privacy Policy</a></li>
+		</ul>
+		<div id="subscribe" class="feed">
+			<a title="Subscribe to this blog..." class="feedlink" href="feed/"><abbr title="Really Simple Syndication">RSS</abbr> feed</a>
+							<ul>
+					<li><a rel="external nofollow" title="Subscribe with Xian Guo"	href="http://www.xianguo.com/subscribe.php">					Xian Guo	</a></li>
+					<li><a rel="external nofollow" title="Subscribe with Zhua Xia"	href="http://www.zhuaxia.com/add_channel.php">					Zhua Xia	</a></li>
+					<li><a rel="external nofollow" title="Subscribe with Yodao"		href="http://reader.yodao.com/#url=feed/">								Yodao	</a></li>
+					<li><a rel="external nofollow" title="Subscribe with Google"		href="http://fusion.google.com/add">						Google	</a></li>
+					<li><a rel="external nofollow" title="Subscribe with netvibes" href="https://www.netvibes.com/subscribe.php">					netvibes	</a></li>
+					<li><a rel="external nofollow" title="Subscribe with newsgator"	href="http://www.newsgator.com/ngs/subscriber/subfext.aspx">	newsgator</a></li>
+					<li><a rel="external nofollow" title="Subscribe with Bloglines"	href="http://www.bloglines.com/sub/feed/">								Bloglines</a></li>
+					<li><a rel="external nofollow" title="Subscribe with iNezha"		href="http://inezha.com/add">									iNezha	</a></li>
+				</ul>
+					</div>
+				
+		<span id="copyright">
+			&copy; 2009-2014 		</span>
+		<div class="fixed"></div>
+	</div>
+	<!-- menubar END -->
+
+	<!-- main START -->
+	<div id="main">
+<div class="post" id="post-604">
+	<h2 class="title">Set your Swappiness</h2>
+	<div class="meta">
+		<div class="info">
+			Mar 4th, 2011								</div>
+		<div class="comments">
+			<a href="#respond">Leave a comment</a>
+								</div>
+		<div class="fixed"></div>
+	</div>
+
+	<div class="content">
+		<p>Normally you would not need to set your swappiness on your desktop running linux because you have exclusive access to your hard drives.  In fact there are a few people who set the tendancy higher for performance.  However on your vps where disk access is shared with other customers&#8230; you should notice a performance improvement by setting swappiness lower or in this case 0.  Swap isn&#8217;t bad but if it&#8217;s too often; you&#8217;ll have a website nobody wants to visit.</p>
+<p>Setting the swappiness is best when you have a large amount of memory and the os want to swap even when you have more than enough to spare.  This should be noticable for those running minecraft for an example.  This does not work on openvz.</p>
+<p>You can set it temporarily with:</p>
+<p>sysctl vm.swappiness=0</p>
+<p>You can set it permanently by editing /etc/systcl.conf with the line:</p>
+<p>vm.swappiness=0</p>
+<p>I am unaware of any negative impact from lowering swappiness but always test configuration thoroughly before implementing in a production environment.</p>
+<p>&nbsp;</p>
+		<div class="fixed"></div>
+					<div class="tags">Tags: <a href="tag/kvm/" rel="tag">kvm</a>, <a href="tag/minecraft/" rel="tag">minecraft</a>, <a href="tag/swap/" rel="tag">swap</a>, <a href="tag/xen/" rel="tag">xen</a></div>
+			</div>
+</div>
+
+<!-- related posts -->
+
+<div id="postnavi">
+	<span class="alignleft floatleft"><a href="2011/06/17/the-dangers-of-kvm-and-cloud-vps/" rel="next">The dangers of KVM and Cloud VPS</a></span>
+	<span class="alignright floatright"><a href="2011/02/08/linode-review/" rel="prev">Linode review</a></span>
+	<div class="fixed"></div></div>
+
+<script type="34fccd061b9db4dff897f270-text/javascript" src="/contents/ui/theme/js/comment.js"></script>
+
+
+
+	<div class="messagebox">
+		No comments yet.	</div>
+
+
+	<div id="respond">
+	<form id="commentform" action="wp-comments-post.php" method="post">
+
+					<a rel="nofollow" id="cancel-comment-reply-link" href="/2011/03/04/set-your-swappiness/#respond" style="display:none;">Cancel reply</a>		
+		<!-- comment info -->
+					
+			<div id="author_info">
+				<div class="row">
+					<input type="text" name="author" id="author" class="textfield" value="" size="24" tabindex="1" />
+					<label for="author" class="small">Name (required)</label>
+				</div>
+				<div class="row">
+					<input type="text" name="email" id="email" class="textfield" value="" size="24" tabindex="2" />
+					<label for="email" class="small">E-Mail (will not be published) (required)</label>
+				</div>
+				<div class="row">
+					<input type="text" name="url" id="url" class="textfield" value="" size="24" tabindex="3" />
+					<label for="url" class="small">Website</label>
+				</div>
+			</div>
+
+			
+		
+	<!-- comment input -->
+	<div class="row">
+		<textarea name="comment" id="comment" tabindex="4" rows="8" cols="50"></textarea>
+	</div>
+
+	<!-- comment submit and rss -->
+	<div id="submitbox">
+		<a class="feed" href="feed:comments/feed/">Subscribe to comments feed</a>
+		<input name="submit" type="submit" id="submit" class="button" tabindex="5" value="Submit Comment" />
+				<input type="hidden" name="comment_post_ID" value="604" />
+		<div class="fixed"></div>
+	</div>
+
+			<input type='hidden' name='comment_post_ID' value='604' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+	
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p>
+	</form>
+	</div>
+
+	
+
+	</div>
+	<!-- main END -->
+
+		
+<!-- sidebar START -->
+<div id="sidebar">
+
+	<!-- showcase -->
+	
+<div class="widget widget_nav_menu"><h3>Links</h3><div class="menu-links-container"><ul id="menu-links" class="menu"><li id="menu-item-753" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-753"><a href="">My Hosting</a></li>
+<li id="menu-item-754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-754"><a href="">Vpslink VPS Stats</a></li>
+</ul></div></div><div class="widget widget_nav_menu"><h3>My Hosts</h3><div class="menu-my-hosts-container"><ul id="menu-my-hosts" class="menu"><li id="menu-item-755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-755"><a href="http://www.fatcow.com/join/index.bml?AffID=626502">fatcow.com</a></li>
+<li id="menu-item-756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-756"><a href="https://www.linode.com/?r=df1593d4d5f9937b4dfa9aad51e3e8b2800500f0">linode.com</a></li>
+<li id="menu-item-757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-757"><a href="http://www.vpslink.com/join/index.bml?AffID=624584&#038;LinkName=myvpsbox">vpslink.com</a></li>
+</ul></div></div><div class="widget widget_categories"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="category/guides/" >guides</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="category/hosting-reviews/" title="My hosting reviews.  Actual providers that I use and host with">hosting reviews</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="category/misc/" >misc</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="category/server/" >server</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="category/troubleshoot/" >troubleshoot</a>
+</li>
+		</ul>
+</div>
+<!-- Start - HTML Javascript Adder plugin v3.9 -->
+<div class="widget widget_html_javascript_adder">
+<div class="hjawidget textwidget">
+<center><a href="http://www.vpslink.com/join/index.bml?AffID=624584&amp;LinkName=myvpsbox"><img src="http://files./2/502.gif" style="border: 0px" alt="affiliate_link"/></a><br /><script type="34fccd061b9db4dff897f270-text/javascript"><!--
+  amazon_ad_tag = "myvpsboxcom-20";  amazon_ad_width = "120";  amazon_ad_height = "240";//--></script>
+<script src="https://www.assoc-amazon.com/s/ads.js" type="34fccd061b9db4dff897f270-text/javascript"></script><br /><a href="http://www.fatcow.com/join/index.bml?AffID=626502&LinkName=myvpsbox"><img src="http://files./2/351.gif" style="border:0px" alt="affiliate_link"></a></center>
+</div>
+</div><!-- End - HTML Javascript Adder plugin v3.9 -->
+<div class="widget widget_recent_comments"><h3>Recent Comments</h3><ul id="recentcomments"></ul></div><div class="widget widget_tag_cloud"><h3>Tags</h3><div class="tagcloud"><a href="tag/apf/" class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 8pt;" aria-label="apf (1 item)">apf</a>
+<a href="tag/bbpress/" class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 8pt;" aria-label="bbpress (1 item)">bbpress</a>
+<a href="tag/bot/" class="tag-cloud-link tag-link-9 tag-link-position-3" style="font-size: 8pt;" aria-label="bot (1 item)">bot</a>
+<a href="tag/cdn/" class="tag-cloud-link tag-link-11 tag-link-position-4" style="font-size: 8pt;" aria-label="cdn (1 item)">cdn</a>
+<a href="tag/centos/" class="tag-cloud-link tag-link-12 tag-link-position-5" style="font-size: 11.230769230769pt;" aria-label="centos (2 items)">centos</a>
+<a href="tag/cloud/" class="tag-cloud-link tag-link-13 tag-link-position-6" style="font-size: 8pt;" aria-label="cloud (1 item)">cloud</a>
+<a href="tag/cloudflare/" class="tag-cloud-link tag-link-14 tag-link-position-7" style="font-size: 11.230769230769pt;" aria-label="cloudflare (2 items)">cloudflare</a>
+<a href="tag/cms/" class="tag-cloud-link tag-link-15 tag-link-position-8" style="font-size: 8pt;" aria-label="cms (1 item)">cms</a>
+<a href="tag/community/" class="tag-cloud-link tag-link-16 tag-link-position-9" style="font-size: 8pt;" aria-label="community (1 item)">community</a>
+<a href="tag/coupon/" class="tag-cloud-link tag-link-17 tag-link-position-10" style="font-size: 11.230769230769pt;" aria-label="coupon (2 items)">coupon</a>
+<a href="tag/csf/" class="tag-cloud-link tag-link-19 tag-link-position-11" style="font-size: 8pt;" aria-label="csf (1 item)">csf</a>
+<a href="tag/ddos/" class="tag-cloud-link tag-link-20 tag-link-position-12" style="font-size: 8pt;" aria-label="ddos (1 item)">ddos</a>
+<a href="tag/debian/" class="tag-cloud-link tag-link-21 tag-link-position-13" style="font-size: 8pt;" aria-label="debian (1 item)">debian</a>
+<a href="tag/discount/" class="tag-cloud-link tag-link-22 tag-link-position-14" style="font-size: 11.230769230769pt;" aria-label="discount (2 items)">discount</a>
+<a href="tag/disqus/" class="tag-cloud-link tag-link-24 tag-link-position-15" style="font-size: 8pt;" aria-label="disqus (1 item)">disqus</a>
+<a href="tag/enotch/" class="tag-cloud-link tag-link-25 tag-link-position-16" style="font-size: 11.230769230769pt;" aria-label="enotch (2 items)">enotch</a>
+<a href="tag/exim4/" class="tag-cloud-link tag-link-26 tag-link-position-17" style="font-size: 8pt;" aria-label="exim4 (1 item)">exim4</a>
+<a href="tag/facebook/" class="tag-cloud-link tag-link-27 tag-link-position-18" style="font-size: 8pt;" aria-label="facebook (1 item)">facebook</a>
+<a href="tag/fatcow/" class="tag-cloud-link tag-link-28 tag-link-position-19" style="font-size: 8pt;" aria-label="fatcow (1 item)">fatcow</a>
+<a href="tag/firewall/" class="tag-cloud-link tag-link-29 tag-link-position-20" style="font-size: 11.230769230769pt;" aria-label="firewall (2 items)">firewall</a>
+<a href="tag/forum/" class="tag-cloud-link tag-link-30 tag-link-position-21" style="font-size: 8pt;" aria-label="forum (1 item)">forum</a>
+<a href="tag/google-apps/" class="tag-cloud-link tag-link-31 tag-link-position-22" style="font-size: 8pt;" aria-label="google apps (1 item)">google apps</a>
+<a href="tag/incapsula/" class="tag-cloud-link tag-link-32 tag-link-position-23" style="font-size: 8pt;" aria-label="incapsula (1 item)">incapsula</a>
+<a href="tag/integration/" class="tag-cloud-link tag-link-33 tag-link-position-24" style="font-size: 8pt;" aria-label="integration (1 item)">integration</a>
+<a href="tag/intensedebate/" class="tag-cloud-link tag-link-34 tag-link-position-25" style="font-size: 8pt;" aria-label="intensedebate (1 item)">intensedebate</a>
+<a href="tag/kernel/" class="tag-cloud-link tag-link-35 tag-link-position-26" style="font-size: 8pt;" aria-label="kernel (1 item)">kernel</a>
+<a href="tag/kvm/" class="tag-cloud-link tag-link-36 tag-link-position-27" style="font-size: 11.230769230769pt;" aria-label="kvm (2 items)">kvm</a>
+<a href="tag/linode/" class="tag-cloud-link tag-link-37 tag-link-position-28" style="font-size: 13.384615384615pt;" aria-label="linode (3 items)">linode</a>
+<a href="tag/memcached/" class="tag-cloud-link tag-link-38 tag-link-position-29" style="font-size: 8pt;" aria-label="memcached (1 item)">memcached</a>
+<a href="tag/migration/" class="tag-cloud-link tag-link-39 tag-link-position-30" style="font-size: 13.384615384615pt;" aria-label="migration (3 items)">migration</a>
+<a href="tag/minecraft/" class="tag-cloud-link tag-link-40 tag-link-position-31" style="font-size: 8pt;" aria-label="minecraft (1 item)">minecraft</a>
+<a href="tag/monit/" class="tag-cloud-link tag-link-41 tag-link-position-32" style="font-size: 8pt;" aria-label="monit (1 item)">monit</a>
+<a href="tag/munin/" class="tag-cloud-link tag-link-42 tag-link-position-33" style="font-size: 8pt;" aria-label="munin (1 item)">munin</a>
+<a href="tag/mysql/" class="tag-cloud-link tag-link-43 tag-link-position-34" style="font-size: 8pt;" aria-label="mysql (1 item)">mysql</a>
+<a href="tag/php/" class="tag-cloud-link tag-link-48 tag-link-position-35" style="font-size: 11.230769230769pt;" aria-label="php (2 items)">php</a>
+<a href="tag/refferal/" class="tag-cloud-link tag-link-52 tag-link-position-36" style="font-size: 11.230769230769pt;" aria-label="refferal (2 items)">refferal</a>
+<a href="tag/security/" class="tag-cloud-link tag-link-56 tag-link-position-37" style="font-size: 11.230769230769pt;" aria-label="security (2 items)">security</a>
+<a href="tag/shared-hosting/" class="tag-cloud-link tag-link-57 tag-link-position-38" style="font-size: 13.384615384615pt;" aria-label="shared hosting (3 items)">shared hosting</a>
+<a href="tag/slicehost/" class="tag-cloud-link tag-link-59 tag-link-position-39" style="font-size: 11.230769230769pt;" aria-label="slicehost (2 items)">slicehost</a>
+<a href="tag/spam/" class="tag-cloud-link tag-link-61 tag-link-position-40" style="font-size: 11.230769230769pt;" aria-label="spam (2 items)">spam</a>
+<a href="tag/virtual-dedicated-server/" class="tag-cloud-link tag-link-68 tag-link-position-41" style="font-size: 21.282051282051pt;" aria-label="vds (10 items)">vds</a>
+<a href="tag/virtual-private-server/" class="tag-cloud-link tag-link-70 tag-link-position-42" style="font-size: 22pt;" aria-label="vps (11 items)">vps</a>
+<a href="tag/vpslink/" class="tag-cloud-link tag-link-71 tag-link-position-43" style="font-size: 17.871794871795pt;" aria-label="vpslink (6 items)">vpslink</a>
+<a href="tag/wordpress/" class="tag-cloud-link tag-link-75 tag-link-position-44" style="font-size: 15.179487179487pt;" aria-label="wordpress (4 items)">wordpress</a>
+<a href="tag/xen/" class="tag-cloud-link tag-link-76 tag-link-position-45" style="font-size: 16.615384615385pt;" aria-label="xen (5 items)">xen</a></div>
+</div><div class="widget widget_text">			<div class="textwidget"><a href="http://login.nyclee.net/wp-login.php" class="external" rel="nofollow"><div style="height: 0px; width: 0px;"></div></a></div>
+		</div>
+<!-- showcase 2 -->
+
+</div>
+<!-- sidebar END -->
+
+	<div class="fixed"></div>
+
+	<!-- footer START -->
+	<div id="footer">
+		<div id="about">
+			Powered by <a href="https://wordpress.org/">WordPress</a>			 | Theme by <a href="http://www.neoease.com/">NeoEase</a>			 | Valid <a href="https://validator.w3.org/check?uri=referer">XHTML 1.1</a> and <a href="https://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS 3</a>		</div>
+		<ul id="admin">
+						<li><a rel="nofollow" href="wp-login.php">Log in</a></li>
+			<li id="gotop"><a href="#" onclick="MGJS.goTop();return false;">TOP</a></li>
+		</ul>
+		<div class="fixed"></div>
+	</div>
+	<!-- footer END -->
+
+</div>
+<!-- content END -->
+
+		</div><!-- container -->
+	</div><!-- wrap -->
+
+<div id="cookie-law-info-bar"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.<a href="#"  class="cookie_action_close_header medium cli-plugin-button cli-plugin-main-button" >Accept</a> <a href="" id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  >Read More</a></span></div><div id="cookie-law-info-again"><span id="cookie_hdr_showagain">Privacy & Cookies Policy</span></div>		
+		<script type="34fccd061b9db4dff897f270-text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function() {
+				cli_show_cookiebar({
+					settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":true,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":true,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"showagain_tab":true,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000"}'
+				});
+			});
+			//]]>
+		</script>
+		
+			<div style="display:none">
+	</div>
+<script type="34fccd061b9db4dff897f270-text/javascript" src='https://stats.wp.com/e-201834.js' async='async' defer='defer'></script>
+<script type="34fccd061b9db4dff897f270-text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.4.2',blog:'9669834',post:'604',tz:'-4',srv:''} ]);
+	_stq.push([ 'clickTrackerInit', '9669834', '604' ]);
+</script>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="34fccd061b9db4dff897f270-" defer=""></script></body>
+</html>
